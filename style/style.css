@@ -3,11 +3,24 @@ body {
     margin: 0;
     padding: 0;
   }
+
+  .navbar {
+    font-size: 80px; /* Altere o valor para o tamanho desejado */
+  }
   
   header {
     background-color: #f8f8f8;
     
   }
+
+  .imagem-slideshow {
+    width: 80px; /* Altere o valor para a largura desejada */
+    height: 50px; /* Altere o valor para a altura desejada */
+  }
+
+ 
+
+
   
   h1 {
     margin: 0;
@@ -19,10 +32,7 @@ body {
     margin: 0;
   }
 
-  .navbar{
-    width: auto;
-    height: auto;
-  }
+ 
   
   nav ul li {
     display: inline;
