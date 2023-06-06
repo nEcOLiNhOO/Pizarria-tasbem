@@ -1,62 +1,70 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-  .navbar {
-    font-size: 80px; /* Altere o valor para o tamanho desejado */
-  }
+header {
+  background-color: #f8f8f8;
   
-  header {
-    background-color: #f8f8f8;
-    
-  }
+}
 
-  .imagem-slideshow {
-    width: 80px; /* Altere o valor para a largura desejada */
-    height: 50px; /* Altere o valor para a altura desejada */
-  }
+h1 {
+  margin: 0;
+}
 
- 
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
+.navbar{
+  width: auto;
+  height: auto;
+}
 
-  
-  h1 {
-    margin: 0;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
 
- 
-  
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+section {
+}
+
+h2 {
+  color: #333;
+}
+
+.slideshow {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.imagem-slideshow {
+    width: 100%; 
+    height: 635px;
+    object-fit: fill;
+    display: block;
   }
   
-  nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  section {
-    padding: 20px;
-  }
-  
-  h2 {
-    color: #333;
-  }
-  
-  footer {
+    footer {
+    position: fixed;
+    bottom: 0;
     background-color: #333;
     color: #fff;
-    padding: 10px;
     text-align: center;
+    margin-top: 0;
+    width: 100%;
+    height: 25px;
   }
-  
