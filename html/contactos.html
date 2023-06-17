@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-
   <title>Pizzaria Delícia</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="../style/style_contatos.css">
 </head>
 <body>
   <header>
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -20,34 +18,68 @@
               <a class="nav-link" aria-current="page" href="../html/index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../html/sobre_nos.html">Sobre nos</a>
+              <a class="nav-link" aria-current="page" href="../html/sobre_nos.html">Sobre nós</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../html/menus.html">Menus</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../html/contactos.html">Contatos</a>
+              <a class="nav-link" href="../html/contactos.html">Contactos</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-  <section id="contato">
-    <h1 class="texto_contato">Contatos</h1>
-    <div class="contact-card">
-      <div class="contact-info">
-        <p class="contact-text">Telémovel: (+351) 932421543</p>
+    <section id="contato">
+      <div class="imagem_fundo">
+      <h1 class="texto_podemos_ajudar">Podemos ajudar?</h1>
+      <div class="contact-card">
+        <h1 class="texto_contacta_nos">Contacta-nos</h1>
+        <div class="contact-info">
+          <p class="contact-text">Telémovel: (+351) 932421543</p>
+        </div>
+        <div class="contact-info">
+          <p class="contact-text">Email: contato@pizzariatasbem.com</p>
+        </div>
+        <h3 class="texto_onde_nos_encontrar"> Onde nos encontrar?</h3>
       </div>
-      <div class="contact-info">
-        <p class="contact-text">Email: contato@pizzariatasbem.com</p>
+       <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d397247.6413966912!2d-8.643782670210314!3d38.93546836511802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd18ee6ddc50c5d3%3A0x534d7a6da473c77d!2sISLA%20-%20Instituto%20Superior%20de%20Gest%C3%A3o%20e%20Administra%C3%A7%C3%A3o!5e0!3m2!1spt-PT!2spt!4v1687025885347!5m2!1spt-PT!2spt" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div> 
       </div>
-    </div>
-    <div class="mapa">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1299.3458474872525!2d-8.686897406078996!3d39.23418446077498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd18ee6ddc50c5d3%3A0x534d7a6da473c77d!2sISLA%20-%20Instituto%20Superior%20de%20Gest%C3%A3o%20e%20Administra%C3%A7%C3%A3o!5e0!3m2!1spt-PT!2spt!4v1687011540093!5m2!1spt-PT!2spt" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-    <div class="footer-container">
-  </section>
+      <form class="form">
+        <div class="flex">
+            <label>
+                <input required="" placeholder="" type="text" class="input">
+                <span>Nome</span>
+            </label>
+            <label>
+                <input required="" placeholder="" type="text" class="input">
+                <span>Apelido</span>
+            </label>
+        </div>       
+        <label>
+            <input required="" placeholder="" type="email" class="input">
+            <span>Email</span>
+        </label>   
+        <label>
+            <input required="" type="tel" placeholder="" class="input">
+            <span>nº telemovel</span>
+        </label>
+        <label>
+            <textarea required="" rows="3" placeholder="" class="input01"></textarea>
+            <span>Mensagem</span>
+        </label>
+        <button class="fancy" href="#">
+          <span class="top-key"></span>
+          <span class="text">Enviar</span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </button>
+    </form>
+    </section>
+  <div class="footer-container"></div>
     <footer>
       <p>Todos os direitos reservados &copy; 2023 Pizzaria Tasbem</p>
     </footer>
