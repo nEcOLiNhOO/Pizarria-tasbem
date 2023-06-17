@@ -64,6 +64,33 @@ h2 {
     width: 60px;
   }
 
+  .imagem_fundo{
+    background-image: url('/imagens/bg_4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 865px;
+    z-index: 0;
+  }
+
+  .imagem_fundo1{
+    background-image: url('/imagens/pizza-1.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1; 
+    height: 519px;
+    width: 533px;
+    margin-top: 150px;
+    margin-left:20px ;
+  }
+
+  .sobre_nos{
+    align-items: center;
+  }
+
 footer {
     position: fixed;
     bottom: 0;

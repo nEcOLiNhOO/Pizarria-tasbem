@@ -77,10 +77,6 @@ section {
     top: 100px;
 }
 
-.mapa iframe{
-    position:relative;
-}
-
 .texto_podemos_ajudar{
     text-align: left;
     position: relative;
@@ -103,7 +99,7 @@ section {
   height: 865px;
 }
 
-.contact-card {
+.contacto-cartao {
     display: flex;
     text-align: center;
     flex-direction: column;
