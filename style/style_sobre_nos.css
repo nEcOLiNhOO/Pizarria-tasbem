@@ -21,12 +21,12 @@ nav ul {
 }
 
 .nav-link{
-    color: #af741c;
+    color: #f5b914;
   }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 nav ul li a {
@@ -58,7 +58,7 @@ h2 {
     padding-right: 10px;
   }
   .imagem_logo img{
-    left: 1750px;
+    margin-right: 50px;
     position: relative;
     height: 50px;  
     width: 60px;
@@ -74,21 +74,36 @@ h2 {
     z-index: 0;
   }
 
-  .imagem_fundo1{
-    background-image: url('/imagens/pizza-1.jpg');
-    background-repeat: no-repeat;
-    background-position: left center;
-    overflow: hidden;
-    position: relative;
-    z-index: 1; 
-    height: 519px;
-    width: 533px;
+  .imagem_fundo1 {
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
     margin-top: 150px;
-    margin-left:20px ;
+  }
+  
+  .imagem_fundo1 img {
+    width: 25%; 
+    height: 25%; 
+    object-fit: cover;
+  }
+  
+  .texto_sobre_nos {
+    flex: 1;
+    padding: 0 20px;
+    margin-left: 50px;
   }
 
+  .texto_sobre_nos p {
+    color: #d1d1d1;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+
   .sobre_nos{
-    align-items: center;
+    color: white;
+    margin-top: 25px ;
   }
 
 footer {
