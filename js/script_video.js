@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     var video = document.querySelector('.video-slideshow');
-    video.volume = 0.1;
     var fraseElement = document.createElement('p');
     fraseElement.textContent = 'Delicie-se com nossas pizzas artesanais, feitas com paixão e ingredientes frescos. Uma fatia de sabor que irá encantar seu paladar e alimentar sua alma';
     fraseElement.classList.add('frase');
     fraseElement.classList.add('fade-in');
     fraseElement.classList.add('slide-in');
+    video.volume = 0.1;
   
     video.addEventListener('ended', function() {
       video.pause();
