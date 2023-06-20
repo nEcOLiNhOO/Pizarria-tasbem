@@ -73,15 +73,15 @@ section {
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    left: 1360px;
-    top: 100px;
+    margin-left: 870px;
+    margin-top: 10px;
 }
 
 .texto_podemos_ajudar{
     text-align: left;
     position: relative;
-    top:100px;
-    left:320px;
+    margin-top:70px;
+    margin-left:320px;
     color: #ffffff;
 }
 
@@ -105,8 +105,8 @@ section {
     flex-direction: column;
     position: relative;
     color: #fff;
-    left: 600px;
-    top: 70px;
+    margin-left: 600px;
+    margin-top: 70px;
     margin-bottom: 20px;
   }
   
@@ -118,14 +118,18 @@ section {
     font-size: 16px;
   }
 
+  .contacto-info{
+    margin-top: 60px ;
+  }
+
   .texto_contacta_nos{
     position: relative;
-    bottom: 26px;
+    margin-top: -117px ;
   }
 
   .texto_onde_nos_encontrar{
     position: relative;
-    top: 10px;
+    margin-top: 30px;
   }
 
   .form {
