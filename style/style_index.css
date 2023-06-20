@@ -66,9 +66,9 @@ h2 {
 
 .video-slideshow {
   width: 100%; 
-  height: auto; /* Alterando para "auto" para manter a proporção */
-  max-height: 90vh; /* Definindo uma altura máxima de 100% da altura da tela */
-  object-fit: cover; /* Usando "cover" para preencher o espaço disponível */
+  height: fit-content; 
+  max-height: 100vh; 
+  object-fit: cover; 
   display: block;
 }
 
